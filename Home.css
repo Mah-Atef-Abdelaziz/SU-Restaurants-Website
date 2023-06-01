@@ -1,0 +1,230 @@
+body {
+    margin: 0%;
+    border-color: goldenrod;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    /* background-color: #333; */
+    padding: 0px;
+    margin: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav li:hover {
+    font-size: larger;
+}
+
+#SU-logo {
+    width: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.links li {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links li #HomeLink {
+    color: black;
+    font-size: larger;
+}
+
+.links li a:hover {
+    color: red;
+    border-bottom: 2px solid goldenrod;
+}
+
+.links li a:active {
+    color: blue;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+}
+
+.auth li {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.auth a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.auth a:hover {
+    color: red;
+    border-bottom: 2px solid goldenrod;
+}
+
+.auth a:active {
+    color: blue;
+}
+
+header {
+    height: 100vh;
+    background-image: url(icon/Restaurants.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+header * {
+    z-index: 1;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    color: #fff;
+
+}
+
+#Sinai_University_Logo {
+    width: 50%;
+    margin: 0px;
+}
+
+header .content h1 {
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    font-size: 60px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+header .content p {
+    margin: 20px 0px 40px;
+    font-size: 30px;
+}
+
+header .content a {
+    color: red;
+    border-color: goldenrod;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(200, 200, 200, 0.7);
+    border-style: outset;
+}
+
+.SinaiUni:hover {
+    font-size: larger;
+}
+
+.SU {
+    font-family: Calibri;
+    color: rgb(41, 86, 119);
+    padding: 0px;
+    margin: 0px;
+    font-size: larger;
+}
+
+.almost {
+    color: silver;
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.almost:hover {
+    font-size: smaller;
+}
+
+.gold {
+    color: rgb(254, 137, 8);
+}
+
+.gold:hover {
+    font-size: larger;
+}
+
+.orderbtn a {
+
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.orderbtn a:hover {
+    font-size: x-large;
+}
+
+.orderbtn a:active {
+    color: blue;
+}
+
+#Mah {
+    font-size: 15px;
+    margin: 60px 0px 0px 0px;
+    backdrop-filter: blur(10px);
+    border-color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+#MA {
+
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#MA:hover {
+    font-size: 22px;
+}
+
+/* animation */
+#Mah {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

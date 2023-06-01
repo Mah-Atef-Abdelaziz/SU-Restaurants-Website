@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <link rel="stylesheet" href="Items.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div id="navbar">
+            <nav>
+                <img id="SU-logo" src="icon/logo.png" alt="">
+                <div class="center">
+                    <ul class="links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a id="ItemsLink" href="#">Items</a></li>
+                        <li><a href="Testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <ul class="auth">
+                        <li><a href="Home.html">Logout</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="content">
+            <h1>Welcome to <span class="SinaiUni">
+                    <span class="SU">S</span><span class="primary-text">inai</span>
+                    <span class="SU">U</span><span class="primary-text">niversity</span>
+                </span> Restaurants
+            </h1>
+
+            <div class="container">
+                <div class="container-photos">
+                    <div class="item-1">
+                        <a href="#h2-tablya">
+                            <img src="restaurants/tablya.jpg" alt="tablya">
+                        </a>
+                    </div>
+
+                    <div class="item-2">
+                        <a href="#h2-altakht">
+                            <img src="restaurants/altakht.jpg" alt="altakht">
+                        </a>
+                    </div>
+
+                    <div class="item-3">
+                        <a href="#h2-alnakhel">
+                            <img src="restaurants/alnakhel.jpg" alt="alnakhel">
+                        </a>
+                    </div>
+
+                    <div class="item-4">
+                        <a href="#h2-loqma">
+                            <img src="restaurants/loqma.jpg" alt="loqma">
+                        </a>
+                    </div>
+
+                    <div class="item-5">
+                        <a href="#h2-pizza">
+                            <img src="restaurants/pizza.jpg" alt="pizza">
+                        </a>
+                    </div>
+
+                    <div class="item-6">
+                        <a href="#h2-café">
+                            <img src="restaurants/café.jpg" alt="café">
+                        </a>
+                    </div>
+
+                    <div class="item-7">
+                        <a href="#h2-sea-horse">
+                            <img src="restaurants/sea-horse.jpg" alt="sea-horse">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="container-link">
+                    <div class="item">
+                        <a href="#h2-tablya">Tablya</a>
+                    </div>
+                    <div class="item">
+                        <a href="#h2-altakht">Altakht</a>
+                    </div>
+                    <div class="item">
+                        <a href="#h2-alnakhel">Alnakhel</a>
+                    </div>
+                    <div class="item">
+                        <a href="#h2-loqma">Loqma</a>
+                    </div>
+                    <div class="item">
+                        <a href="#h2-pizza">Pizza</a>
+                    </div>
+                    <div class="item">
+                        <a href="#h2-café">Café</a>
+                    </div>
+                    <div class="item">
+                        <a href="#h2-sea-horse">Sea-Horse</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main id="main">
+        <!-- Tablya -->
+        <div class="restaurant" id="tablya">
+            <h2 id="h2-tablya">Tablya</h2>
+
+            <div class="shop">
+                <div class="side-bar">
+                    <img class="sidebar" src="restaurants/sidebar.jpg" alt="sidebar">
+                </div>
+
+                <div class="items">
+                    <div class="desc">
+                        <div class="logo-desc">
+                            <img class="logo" src="icon/tablya.png" alt="tablya-logo">
+                            <h3>Discreption</h3>
+                        </div>
+
+                        <p class="description">Tablya is our flagship restaurant, serving traditional Egyptian cuisine
+                            in a modern and stylish setting. Our menu features a variety of dishes made with fresh,
+                            locally-sourced ingredients, including our famous koshari and stuffed pigeon. Come and
+                            experience
+                            the best of Egyptian cuisine at Tablya!
+                        </p>
+
+                        <div class="check">
+                            <div class="check-Testimonials">
+                                <a href="Testimonials.html">Check Our Testimonials!</a>
+                            </div>
+
+                            <div class="check-restaurants">
+                                <a href="#navbar">Check Other Restaurants!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order">
+                        <!-- Order Form Start -->
+                        <div class="Order-form">
+                            <form>
+                                <h3>Order From Tablya!</h3>
+
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <div class="flex">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+
+                                    <label for="items">Items:</label>
+                                    <select id="items" name="items">
+                                        <option value="choose-item" selected>--Please Select--</option>
+                                        <optgroup label="ساندوتشات">
+                                            <option value="item1">فول بالزيت الحار 6ج</option>
+                                            <option value="item2">فول بالصلصة 6ج</option>
+                                            <option value="item3">فول بزيت الزيتون 8ج</option>
+                                            <option value="item4">طعمية 5ج</option>
+                                            <option value="item5">بطاطس 5ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="كشري">
+                                            <option value="item6">عادي 15ج</option>
+                                            <option value="item7">بالكبدة 20ج</option>
+                                            <option value="item8">باللحمة 25ج</option>
+                                            <option value="item9">بالفراخ 30ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="اضافات">
+                                            <option value="item10">علبة سلطة 6ج</option>
+                                            <option value="item11">علبة طحينة 5ج</option>
+                                            <option value="item12">بيض 20ج</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+
+                                <div id="quantity">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </div>
+
+                                <label for="special-requests">Special Requests:</label>
+                                <textarea id="special-requests" name="special-requests"></textarea>
+
+                                <div id="pickup-date">
+                                    <label for="pickup-date">Pickup Date:</label>
+                                    <input type="date" id="pickup-date" name="pickup-date">
+                                </div>
+
+                                <div id="pickup-time">
+                                    <label for="pickup-time">Pickup Time:</label>
+                                    <input type="time" id="pickup-time" name="pickup-time">
+                                </div>
+
+                                <div id="submitbtn">
+                                    <input id="submit" type="submit" value="Submit">
+                                </div>
+
+                            </form>
+                        </div>
+                        <!-- Order Form End -->
+                    </div>
+                </div>
+                <img src="restaurants/tablya.jpg" alt="tablya">
+            </div>
+        </div>
+
+        <!-- Altakht -->
+        <div class="restaurant" id="Altakht">
+            <h2 id="h2-altakht">Altakht</h2>
+
+            <div class="shop">
+                <div class="side-bar">
+                    <img class="sidebar" src="restaurants/sidebar.jpg" alt="sidebar">
+                </div>
+
+                <div class="items">
+                    <div class="desc">
+                        <div class="logo-desc">
+                            <img class="logo" src="icon/sandwitch.png" alt="altakht-logo">
+                            <h3>Discreption</h3>
+                        </div>
+
+                        <p class="description">Altakht is your go-to destination for Middle Eastern cuisine. Our menu
+                            features a wide range of classic dishes, from shawarma and falafel to hummus and tabbouleh.
+                            We use only the freshest ingredients and authentic recipes to bring you the flavors of the
+                            Middle East in every bite.
+                        </p>
+
+                        <div class="check">
+                            <div class="check-Testimonials">
+                                <a href="Testimonials.html">Check Our Testimonials!</a>
+                            </div>
+
+                            <div class="check-restaurants">
+                                <a href="#navbar">Check Other Restaurants!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <!-- Order Form Start -->
+                        <div class="Order-form">
+                            <form>
+                                <h3>Order From Altakht!</h3>
+
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <div class="flex">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+
+                                    <label for="items">Items:</label>
+                                    <select id="items" name="items">
+                                        <option value="choose-item" selected>--Please Select--</option>
+                                        <optgroup label="أطباق">
+                                            <option value="item1">لحم محمر 60ج</option>
+                                            <option value="item2">كبدة محمرة 50ج </option>
+                                            <option value="item3">كيلو ريش ضاني 350ج</option>
+                                            <option value="item4">كيلو كباب ضاني 350ج</option>
+                                            <option value="item5">كيلو كفتة بلدي 200ج</option>
+                                            <option value="item6">كيلو كباب مشكل 300ج</option>
+                                            <option value="item7">كيلو كبدة مشوي 160ج</option>
+                                            <option value="item8">كيلو سجق مقلي 200ج</option>
+                                            <option value="item9">كيلو كفتة فراخ 200ج</option>
+                                            <option value="item10">كيلو طرب 230ج</option>
+                                            <option value="item11">فرخة مشوية 120ج</option>
+                                            <option value="item12">فرخة شيش 120ج</option>
+                                            <option value="item13">فرخة محمرة 120ج</option>
+                                            <option value="item14">فرخة حشو رز 130ج</option>
+                                            <option value="item15">فرخة حشو فريك 130ج</option>
+                                            <option value="item16">فرخة رستو 120ج</option>
+                                            <option value="item17">كيلو ممبار 100ج</option>
+                                            <option value="item18">كيلو ورق عنب 75ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="طواجن">
+                                            <option value="item19">بطاطس سادة 25ج</option>
+                                            <option value="item20">خضار مشكل 25ج</option>
+                                            <option value="item21">بامية سادة 25ج</option>
+                                            <option value="item22">ملوخية سادة 25ج</option>
+                                            <option value="item23">بسلة سادة 25ج</option>
+                                            <option value="item24">بطاطس باللحم 50ج</option>
+                                            <option value="item25">بامية باللحم 55ج</option>
+                                            <option value="item26">بسلة باللحم 55ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="فتة">
+                                            <option value="item27">شاورما لحم 50ج</option>
+                                            <option value="item28">شاورما فراخ 50ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="حواوشي">
+                                            <option value="item29">لحم 50ج</option>
+                                            <option value="item30">فراخ 50ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="ساندويتشات">
+                                            <option value="item31">كفتة (فطير) 30ج</option>
+                                            <option value="item32">كفتة (فرنساوي) 30ج</option>
+                                            <option value="item33">كفتة فراخ (فطير) 30ج</option>
+                                            <option value="item34">كفتة فراخ(فرنساوي) 30ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="شوربات">
+                                            <option value="item35">لسان عصفور 10ج</option>
+                                            <option value="item36">شوربة خصار 12ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="أطباق اخرى">
+                                            <option value="item37">ورق بطاطس باللحم 65ج</option>
+                                            <option value="item38">ستيك على الجريل 90ج</option>
+                                            <option value="item39">سجق محمر 60ج</option>
+                                            <option value="item40">حمام محشي 90ج</option>
+                                        </optgroup>
+
+                                    </select>
+                                </div>
+
+                                <div id="quantity">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </div>
+
+                                <label for="special-requests">Special Requests:</label>
+                                <textarea id="special-requests" name="special-requests"></textarea>
+
+                                <div id="pickup-date">
+                                    <label for="pickup-date">Pickup Date:</label>
+                                    <input type="date" id="pickup-date" name="pickup-date">
+                                </div>
+
+                                <div id="pickup-time">
+                                    <label for="pickup-time">Pickup Time:</label>
+                                    <input type="time" id="pickup-time" name="pickup-time">
+                                </div>
+
+                                <div id="submitbtn">
+                                    <input id="submit" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Order Form End -->
+                    </div>
+                </div>
+                <img src="restaurants/altakht.jpg" alt="altakht">
+            </div>
+        </div>
+
+        <!-- Alnakhel -->
+        <div class="restaurant" id="alnakhel">
+            <h2 id="h2-alnakhel">Alnakhel</h2>
+
+            <div class="shop">
+                <div class="side-bar">
+                    <img class="sidebar" src="restaurants/sidebar.jpg" alt="sidebar">
+                </div>
+
+                <div class="items">
+                    <div class="desc">
+                        <div class="logo-desc">
+                            <img class="logo" src="icon/alnakhel.png" alt="alnakhel-logo">
+                            <h3>Discreption</h3>
+                        </div>
+
+                        <p class="description">Inspired by the lush palm trees that line the Nile River, Alnakhel is a
+                            cozy and inviting restaurant that specializes in Mediterranean cuisine. Our menu features a
+                            variety of dishes made with fresh seafood, grilled meats, and locally sourced vegetables.
+                            Come and enjoy a taste of the Mediterranean at Alnakhel!
+                        </p>
+
+                        <div class="check">
+                            <div class="check-Testimonials">
+                                <a href="Testimonials.html">Check Our Testimonials!</a>
+                            </div>
+
+                            <div class="check-restaurants">
+                                <a href="#navbar">Check Other Restaurants!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <!-- Order Form Start -->
+                        <div class="Order-form">
+                            <form>
+                                <h3>Order From Alnakhel!</h3>
+
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <div class="flex">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+
+                                    <label for="items">Items:</label>
+                                    <select id="items" name="items">
+                                        <option value="choose-item" selected>--Please Select--</option>
+                                        <optgroup label="الوجبات">
+                                            <option value="item1">فطار 30ج</option>
+                                            <option value="item2">غداء 50ج</option>
+                                            <option value="item3">غداء 100ج</option>
+                                            <option value="item4">عشاء 85ج</option>
+                                            <option value="item5">بانيه 80ج</option>
+                                            <option value="item6">شيش طاووك 90ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="سي فود">
+                                            <option value="item7">بوري 80ج</option>
+                                            <option value="item8">جمبري 100ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="الشوربات">
+                                            <option value="item9">سي فود 45ج</option>
+                                            <option value="item10">شوربة 10ج</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+
+                                <div id="quantity">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </div>
+
+                                <label for="special-requests">Special Requests:</label>
+                                <textarea id="special-requests" name="special-requests"></textarea>
+
+                                <div id="pickup-date">
+                                    <label for="pickup-date">Pickup Date:</label>
+                                    <input type="date" id="pickup-date" name="pickup-date">
+                                </div>
+
+                                <div id="pickup-time">
+                                    <label for="pickup-time">Pickup Time:</label>
+                                    <input type="time" id="pickup-time" name="pickup-time">
+                                </div>
+
+                                <div id="submitbtn">
+                                    <input id="submit" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Order Form End -->
+                    </div>
+                </div>
+                <img src="restaurants/alnakhel.jpg" alt="tablya">
+            </div>
+        </div>
+
+        <!-- Loqma -->
+        <div class="restaurant" id="loqma">
+            <h2 id="h2-loqma">Loqma</h2>
+
+            <div class="shop">
+                <div class="side-bar">
+                    <img class="sidebar" src="restaurants/sidebar.jpg" alt="sidebar">
+                </div>
+
+                <div class="items">
+                    <div class="desc">
+                        <div class="logo-desc">
+                            <img class="logo" src="icon/l2ma.png" alt="loqma-logo">
+                            <h3>Discreption</h3>
+                        </div>
+
+                        <p class="description">Loqma is a casual spot for quick bites and comfort food. Our specialty is
+                            fried dough balls that are crispy on the outside and soft on the inside, served with a
+                            variety of dipping sauces and toppings. We also offer a selection of sandwiches, salads, and
+                            desserts to satisfy your cravings.
+                        </p>
+
+                        <div class="check">
+                            <div class="check-Testimonials">
+                                <a href="Testimonials.html">Check Our Testimonials!</a>
+                            </div>
+
+                            <div class="check-restaurants">
+                                <a href="#navbar">Check Other Restaurants!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <!-- Order Form Start -->
+                        <div class="Order-form">
+                            <form>
+                                <h3>Order From Loqma!</h3>
+
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <div class="flex">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+
+                                    <label for="items">Items:</label>
+                                    <select id="items" name="items">
+                                        <option value="choose-item" selected>--Please Select--</option>
+                                        <optgroup label="الكريب">
+                                            <option value="item1">شاورما فراخ 30ج</option>
+                                            <option value="item2">شاورما لحم 25ج</option>
+                                            <option value="item3">بانية 30ج</option>
+                                            <option value="item4">بطاطس 10ج</option>
+                                            <option value="item5">هوت دوج 20ج</option>
+                                            <option value="item6">مشكل جبن 30ج</option>
+                                            <option value="item7">كوردن بلو 35ج</option>
+                                            <option value="item8">كرسبي 10ج</option>
+                                            <option value="item9">برجر لحم 20ج</option>
+                                            <option value="item10">شيش طاووك 35ج</option>
+                                            <option value="item11">زينجر 30ج</option>
+                                            <option value="item12">مشكل فراخ 25ج</option>
+                                            <option value="item13">مشكل لحوم 35ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="ساندوتشات اللحوم">
+                                            <option value="item14">كبدة اسكندراني 35ج</option>
+                                            <option value="item15">برجر جبن 40ج</option>
+                                            <option value="item16">برجر بيض 40ج</option>
+                                            <option value="item17">سجق اسكندراني 35ج</option>
+                                            <option value="item18">شاورما لحم 35ج</option>
+                                            <option value="item19">فاهيتا لحم 30ج</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+
+                                <div id="quantity">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </div>
+
+                                <label for="special-requests">Special Requests:</label>
+                                <textarea id="special-requests" name="special-requests"></textarea>
+
+                                <div id="pickup-date">
+                                    <label for="pickup-date">Pickup Date:</label>
+                                    <input type="date" id="pickup-date" name="pickup-date">
+                                </div>
+
+                                <div id="pickup-time">
+                                    <label for="pickup-time">Pickup Time:</label>
+                                    <input type="time" id="pickup-time" name="pickup-time">
+                                </div>
+
+                                <div id="submitbtn">
+                                    <input id="submit" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Order Form End -->
+                    </div>
+                </div>
+                <img src="restaurants/loqma.jpg" alt="loqma">
+            </div>
+        </div>
+
+        <!-- Pizza -->
+        <div class="restaurant" id="pizza">
+            <h2 id="h2-pizza">Pizza</h2>
+
+            <div class="shop">
+                <div class="side-bar">
+                    <img class="sidebar" src="restaurants/sidebar.jpg" alt="sidebar">
+                </div>
+                <div class="items">
+                    <div class="desc">
+                        <div class="logo-desc">
+                            <img class="logo" src="icon/pizza.png" alt="pizza-logo">
+                            <h3>Discreption</h3>
+                        </div>
+
+                        <p class="description">Pizza is a classic favorite that we do right. Our pizzas are made with
+                            fresh dough, homemade tomato sauce, and the finest toppings. Whether you prefer a classic
+                            Margherita or a loaded meat-lover's pizza, we've got you covered. Come and enjoy a slice of
+                            heaven at Pizza!
+                        </p>
+
+                        <div class="check">
+                            <div class="check-Testimonials">
+                                <a href="Testimonials.html">Check Our Testimonials!</a>
+                            </div>
+
+                            <div class="check-restaurants">
+                                <a href="#navbar">Check Other Restaurants!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <!-- Order Form Start -->
+                        <div class="Order-form">
+                            <form>
+                                <h3>Order From Pizza!</h3>
+
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <div class="flex">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+
+                                    <label for="items">Items:</label>
+                                    <label for="items">Items:</label>
+                                    <select id="items" name="items">
+                                        <option value="choose-item" selected>--Please Select--</option>
+                                        <optgroup label="أطباق">
+                                            <option value="item1">دجاج بانيه 35ج</option>
+                                            <option value="item2">كوردن بلو 35ج</option>
+                                            <option value="item3">دجاج شواية 35ج</option>
+                                            <option value="item4">شيش طاووق 50ج</option>
+                                            <option value="item5">بوم فريت موتزريلا 20ج</option>
+                                            <option value="item6">بطاطس بوم فريت 35ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="باستا">
+                                            <option value="item7">باستا وارز 90ج</option>
+                                            <option value="item8">بولونيز 60ج</option>
+                                            <option value="item9">نيجريسكو 75ج</option>
+                                            <option value="item10">الفريدو 55ج</option>
+                                            <option value="item11">سوسيس 65ج</option>
+                                            <option value="item12">جمبري 65ج</option>
+                                            <option value="item13">نابوليتان 40ج</option>
+                                            <option value="item14">خضار 60ج</option>
+                                            <option value="item15">كبدة 80ج</option>
+                                            <option value="item16">سجق 60ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="البيتزات">
+                                            <option value="item17">مارجريتا 60ج</option>
+                                            <option value="item18">دجاج 50ج</option>
+                                            <option value="item19">تونة 70ج</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+
+                                <div id="quantity">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </div>
+
+                                <label for="special-requests">Special Requests:</label>
+                                <textarea id="special-requests" name="special-requests"></textarea>
+
+                                <div id="pickup-date">
+                                    <label for="pickup-date">Pickup Date:</label>
+                                    <input type="date" id="pickup-date" name="pickup-date">
+                                </div>
+
+                                <div id="pickup-time">
+                                    <label for="pickup-time">Pickup Time:</label>
+                                    <input type="time" id="pickup-time" name="pickup-time">
+                                </div>
+
+                                <div id="submitbtn">
+                                    <input id="submit" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Order Form End -->
+                    </div>
+                </div>
+                <img src="restaurants/pizza.jpg" alt="pizza">
+            </div>
+        </div>
+
+        <!-- café -->
+        <div class="restaurant" id="café">
+            <h2 id="h2-café">Café</h2>
+
+            <div class="shop">
+                <div class="side-bar">
+                    <img class="sidebar" src="restaurants/sidebar.jpg" alt="sidebar">
+                </div>
+
+                <div class="items">
+                    <div class="desc">
+                        <div class="logo-desc">
+                            <img class="logo" src="icon/cofe.png" alt="cofe-logo">
+                            <h3>Discreption</h3>
+                        </div>
+
+                        <p class="description">Our cozy café is the perfect spot for a relaxing cup of coffee or tea. We
+                            offer a variety of specialty drinks, including lattes, cappuccinos, and herbal teas, as well
+                            as a selection of pastries, sandwiches, and salads. Come and unwind at our café!
+                        </p>
+
+                        <div class="check">
+                            <div class="check-Testimonials">
+                                <a href="Testimonials.html">Check Our Testimonials!</a>
+                            </div>
+
+                            <div class="check-restaurants">
+                                <a href="#navbar">Check Other Restaurants!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <!-- Order Form Start -->
+                        <div class="Order-form">
+                            <form>
+                                <h3>Order From Café!</h3>
+
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <div class="flex">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+
+                                    <label for="items">Items:</label>
+                                    <select id="items" name="items">
+                                        <option value="choose-item" selected>--Please Select--</option>
+                                        <optgroup label="الوجبات">
+                                            <option value="item1">شيش طاووق 25ج</option>
+                                            <option value="item2">بانية 30</option>
+                                            <option value="item3">شاورما فراخ 30ج</option>
+                                            <option value="item4">شاورما لحم 40ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="كريبات">
+                                            <option value="item5">شاورما لحم 40ج</option>
+                                            <option value="item6">بطاطس 20ج</option>
+                                            <option value="item7">هوت دوج 35ج</option>
+                                            <option value="item8">مشكل جبن 40ج</option>
+                                            <option value="item9">شاورما فراخ 50ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="ساندوتشات">
+                                            <option value="item10">كبدة اسكندراني 45ج</option>
+                                            <option value="item11">سجق اسكندراني 50ج</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+
+                                <div id="quantity">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </div>
+
+                                <label for="special-requests">Special Requests:</label>
+                                <textarea id="special-requests" name="special-requests"></textarea>
+
+                                <div id="pickup-date">
+                                    <label for="pickup-date">Pickup Date:</label>
+                                    <input type="date" id="pickup-date" name="pickup-date">
+                                </div>
+
+                                <div id="pickup-time">
+                                    <label for="pickup-time">Pickup Time:</label>
+                                    <input type="time" id="pickup-time" name="pickup-time">
+                                </div>
+
+                                <div id="submitbtn">
+                                    <input id="submit" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Order Form End -->
+                    </div>
+                </div>
+                <img src="restaurants/café.jpg" alt="Café">
+            </div>
+        </div>
+
+        <!-- Sea-Horse -->
+        <div class="restaurant" id="sea-horse">
+            <h2 id="h2-sea-horse">Sea-Horse</h2>
+
+            <div class="shop">
+                <div class="side-bar">
+                    <img class="sidebar" src="restaurants/sidebar.jpg" alt="sidebar">
+                </div>
+
+                <div class="items">
+                    <div class="desc">
+                        <div class="logo-desc">
+                            <img class="logo" src="icon/fish.png" alt="Sea-Horse-logo">
+                            <h3>Discreption</h3>
+                        </div>
+
+                        <p class="description">Sea-Horse is a seafood restaurant that offers fresh and delicious seafood
+                            dishes. Our menu features a selection of fish, shrimp, and crab, as well as a variety of
+                            sides and salads. We also offer a selection of cocktails and wines to complement your meal.
+                            Come and enjoy the taste of the sea at Sea-Horse!
+                        </p>
+
+                        <div class="check">
+                            <div class="check-Testimonials">
+                                <a href="Testimonials.html">Check Our Testimonials!</a>
+                            </div>
+
+                            <div class="check-restaurants">
+                                <a href="#navbar">Check Other Restaurants!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <!-- Order Form Start -->
+                        <div class="Order-form">
+                            <form>
+                                <h3>Order From Sea-Horse!</h3>
+
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" required>
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                                <div class="flex">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" required>
+
+                                    <label for="items">Items:</label>
+                                    <select id="items" name="items">
+                                        <option value="choose-item" selected>--Please Select--</option>
+                                        <optgroup label="أسماك">
+                                            <option value="item1">بوري 50ج</option>
+                                            <option value="item2">بلطي 60ج</option>
+                                            <option value="item3">دنيس 70ج</option>
+                                            <option value="item4">قاروص 65ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="وجبات">
+                                            <option value="item5">جمبري 80ج</option>
+                                            <option value="item6">كاليماري 100ج</option>
+                                            <option value="item7">فيلية قشر بياض 30ج</option>
+                                            <option value="item8">سي فود مقلي 120ج</option>
+                                        </optgroup>
+
+                                        <optgroup label="أرز">
+                                            <option value="item9">صياديه 30ج</option>
+                                            <option value="item10">جمبري 80ج</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+
+                                <div id="quantity">
+                                    <label for="quantity">Quantity:</label>
+                                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                                </div>
+
+                                <label for="special-requests">Special Requests:</label>
+                                <textarea id="special-requests" name="special-requests"></textarea>
+
+                                <div id="pickup-date">
+                                    <label for="pickup-date">Pickup Date:</label>
+                                    <input type="date" id="pickup-date" name="pickup-date">
+                                </div>
+
+                                <div id="pickup-time">
+                                    <label for="pickup-time">Pickup Time:</label>
+                                    <input type="time" id="pickup-time" name="pickup-time">
+                                </div>
+
+                                <div id="submitbtn">
+                                    <input id="submit" type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                        <!-- Order Form End -->
+                    </div>
+                </div>
+                <img src="restaurants/sea-horse.jpg" alt="Sea-Horse">
+            </div>
+        </div>
+    </main>
+    <!-- Main End -->
+</body>
+
+</html>

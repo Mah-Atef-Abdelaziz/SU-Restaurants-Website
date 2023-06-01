@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div id="navbar">
+            <nav>
+                <img id="SU-logo" src="icon/logo.png" alt="">
+                <div class="center">
+                    <ul class="links">
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="#">Items</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="auth">
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a id="RegisterLink" href="Registration.html">Register</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="content">
+            <h1>Welcome to <span class="SinaiUni">
+                    <span class="SU">S</span><span class="primary-text">inai</span>
+                    <span class="SU">U</span><span class="primary-text">niversity</span>
+                </span> Restaurants
+            </h1>
+            
+            <!-- Registration Form Start -->
+            <div class="Registration-form">
+                <form action="#" method="post">
+                    <h2>Registration</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="confirmpassword">Confirm password:</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword" required>
+                    <div id="age-gender">
+                        <label for="age">age:</label>
+                        <input type="number" id="age" min="1" name="age" required>
+
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option selected>--Please select--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="Registrationbtn">
+                        <a href="Items.html">Submit</a>
+                    </div>
+                </form>
+            </div>
+            <!-- Registration Form End -->
+        </div>
+
+    </header>
+    <!-- Header End -->
+
+</body>
+
+</html>

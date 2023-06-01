@@ -1,0 +1,526 @@
+body {
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding: 0px;
+    margin: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav li:hover {
+    font-size: larger;
+}
+
+#SU-logo {
+    width: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.links li {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links li #TestimonialsLink {
+    color: black;
+    font-size: larger;
+}
+
+.links li a:hover {
+    color: red;
+    border-bottom: 2px solid goldenrod;
+}
+
+.links li a:active {
+    color: blue;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+}
+
+.auth li {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.auth a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.auth a:hover {
+    color: red;
+    border-bottom: 2px solid goldenrod;
+}
+
+.auth a:active {
+    color: blue;
+}
+
+header {
+    height: 100vh;
+    background-image: url(icon/Restaurants.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+header * {
+    z-index: 1;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header .content h1 {
+    margin: 20px;
+    font-size: 40px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+header .content p {
+    margin: 20px 0px 40px;
+    font-size: 25px;
+}
+
+.primary-text {
+    color: black;
+}
+
+.SinaiUni:hover {
+    font-size: larger;
+}
+
+.SU {
+    font-family: Calibri;
+    color: navy;
+    padding: 0px;
+    margin: 0px;
+    font-size: larger;
+}
+
+body {
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    padding: 0px;
+    margin: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+nav li:hover {
+    font-size: larger;
+}
+
+#SU-logo {
+    width: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.links li {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links li #TestimonialsLink {
+    color: black;
+    font-size: larger;
+}
+
+.links li #TestimonialsLink:hover {
+    color: black;
+}
+
+.links li a:hover {
+    color: red;
+    border-bottom: 2px solid goldenrod;
+}
+
+.links li a:active {
+    color: blue;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+}
+
+.auth li {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.auth a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.auth a:hover {
+    color: red;
+    border-bottom: 2px solid goldenrod;
+}
+
+.auth a:active {
+    color: blue;
+}
+
+header {
+    height: 100vh;
+    background-image: url(icon/Restaurants.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.3);
+}
+
+header * {
+    z-index: 1;
+}
+
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+header .content h1 {
+    margin: 20px;
+    font-size: 40px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+header .content p {
+    margin: 20px 0px 40px;
+    font-size: 25px;
+}
+
+.primary-text {
+    color: whitesmoke;
+}
+
+.SinaiUni:hover {
+    font-size: larger;
+}
+
+.SU {
+    color: rgb(41, 86, 119);
+    padding: 0px;
+    margin: 0px;
+    font-size: larger;
+}
+
+/* Restaurant */
+
+.Restaurant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 710px;
+    height: 410px;
+    border-radius: 10px;
+}
+
+/* animation */
+#Restaurant-photo {
+    animation: move-up-down 2s infinite;
+}
+
+@keyframes move-up-down {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(0, -5%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.Restaurant #Restaurant-photo {
+    width: 360px;
+}
+
+#Restaurant-photo:hover {
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+}
+
+.container-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-link .item {
+    padding: 30px;
+    width: 150px;
+}
+
+.container-link a {
+    color: red;
+    border-color: goldenrod;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(200, 200, 200, 0.7);
+    border-style: outset;
+    border-radius: 5px;
+}
+
+.container-link .item a {
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    font-size: 32px;
+    padding: 0px 5px;
+}
+
+.container-link .item a:hover {
+    width: 100%;
+    font-size: 36px;
+}
+
+/* Main */
+
+main .restaurant {
+    border: 2px solid goldenrod;
+    height: 100vh;
+}
+
+main .restaurant h2 {
+    padding: 10px;
+    margin: 0%;
+    background-color: rgb(254, 137, 8);
+    text-align: center;
+    border: 5px solid rgb(254, 137, 8);
+}
+
+main .restaurant .shop {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 92%;
+    padding: 0%;
+    margin: 0%;
+}
+
+main .restaurant .shop .items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-image: url(icon/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+
+main .restaurant .shop .items .Testimonials-Header {
+    width: 100%;
+    border: 3px solid rgb(254, 137, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+main .restaurant .shop .items h3 {
+    font-size: 40px;
+}
+
+main .restaurant .shop .items::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.5);
+}
+
+main .restaurant .shop .items * {
+    z-index: 1;
+}
+
+
+main .restaurant .shop .items .rows {
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .restaurant .shop .items .rows .column {
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .restaurant .shop .items .rows .column .item {
+    width: 100%;
+    height: 90%;
+    /* border: 4px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .restaurant .shop .items .rows .column .item .cell {
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+
+}
+
+main .restaurant .shop .items .rows .column .item .cell .photo {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(254, 137, 8);
+    border-radius: 50px;
+}
+
+main .restaurant .shop .items .rows .column .item .cell .photo .pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+main .restaurant .shop .items .rows .column .item .cell .opinion {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .restaurant .shop .items .rows .column .item .cell .opinion p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+main .restaurant .shop img {
+    height: 100%;
+    width: 300px;
+}
+
+main .restaurant .shop .side-bar {
+    height: 100%;
+}
+
+main .restaurant .shop .side-bar img {
+    width: 60px;
+    height: 100%;
+}
